@@ -30,15 +30,19 @@ if len(sys.argv) > 1 and sys.argv[1] == "register":
 
     for img, idx in loader:
         face, prob = mtcnn0(img, return_prob=True)
+        print(face.shape)
+
         if face is not None and prob > 0.9:
+
             emb = resnet(face.unsqueeze(0).to(device))
             embedding_list.append(emb.detach())
             name_list.append(idx_to_class[idx])
 
     data = [embedding_list, name_list]
-    torch.save(data, 'data.pt')
+    torch.save(data, 'saved/data.pt')
+    exit(0)
 
-load_data = torch.load('data.pt')
+load_data = torch.load('saved/data.pt')
 embedding_list = load_data[0]
 name_list = load_data[1]
 
