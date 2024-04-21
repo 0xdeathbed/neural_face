@@ -33,3 +33,5 @@ create folder `saved` on same directory in format
           |             pic.jpg
           ....
 ```
+
+<video src="https://github.com/paradoxedmind/neural_face/blob/main/Screencast%20from%202024-04-21%2023-05-09.mp4" controls="controls"> </video>

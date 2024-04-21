@@ -64,7 +64,7 @@ class NeuralFace(QMainWindow):
         self.face_attribute_button.setEnabled(False)
         self.face_attribute_button.clicked.connect(self.attribute_detection)
 
-        self.recognize_button = QPushButton("Recognize button")
+        self.recognize_button = QPushButton("Recognize")
         self.recognize_button.setEnabled(False)
         self.recognize_button.clicked.connect(self.recognize)
 
