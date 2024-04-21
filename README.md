@@ -14,7 +14,7 @@ becuase PyQt5 and opencv conflict do below after installing above packages.
 To run GUI:
 ```
   pip uninstall opencv-python opencv-contrib-python
-  pip install opencv-python-headless PyQt5
+  pip install opencv-python-headless opencv-contrib-python-headless PyQt5
   python gui.py
 ```
 
