@@ -171,8 +171,8 @@ class NeuralFace(QMainWindow):
             text = f"{name},{min_dist:.2f}"
 
             cv2.putText(self.cv_image,
-                        text, (x1, y1 - 5), cv2.FONT_HERSHEY_DUPLEX, 0.9, (0, 255, 0), 2, cv2.LINE_AA)
-            cv2.rectangle(self.cv_image, (x1, y1), (x2, y2), (0, 255, 0), 1)
+                        text, (x1, y1 - 10), cv2.FONT_HERSHEY_DUPLEX, 0.9, (0, 255, 0), 2, cv2.LINE_AA)
+            cv2.rectangle(self.cv_image, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
         self.convertCVToQImage(self.cv_image)
         self.image_label.repaint()
