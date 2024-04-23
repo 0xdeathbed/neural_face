@@ -53,4 +53,11 @@ To Recognize/detect/attribute image:
   python app.py --attribute -f /path/to/image
 ```
 
-<video src="https://github.com/paradoxedmind/neural_face/blob/main/Screencast%20from%202024-04-21%2023-05-09.mp4" controls="controls"> </video>
+
+[![Video Title](assets/demo.mp4)](assets/demo.mp4)
+
+
+| [![Image 1](assets/ui.png)](assets/ui.png) | [![Image 2](assets/detected_face.png)](assets/detected_face.png) |
+| --- | --- | --- | --- |
+| [![Image 5](assets/gender_age.png)](assets/gender_age.png) | [![Image 6](assets/recognize_face.png)](assets/recognize_face.png) |
+
