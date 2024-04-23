@@ -34,4 +34,23 @@ create folder `saved` on same directory in format
           ....
 ```
 
+To use webcam:
+```
+  python app.py --live -l recognize
+  OR
+  python app.py --live -l detect
+```
+
+To register image:
+```
+  python app.py --register -f /path/to/image
+```
+
+To Recognize/detect/attribute image:
+```
+  python app.py --recognize -f /path/to/image
+  python app.py --detect -f /path/to/image
+  python app.py --attribute -f /path/to/image
+```
+
 <video src="https://github.com/paradoxedmind/neural_face/blob/main/Screencast%20from%202024-04-21%2023-05-09.mp4" controls="controls"> </video>
